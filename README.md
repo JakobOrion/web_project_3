@@ -19,4 +19,4 @@ This is a project about traveling across the US from Portland, ME to Portland, O
 
 ### View Site
 
-View the site on Github Pages - 
+View the site on Github Pages - https://jakoborion.github.io/web_project_3/
