@@ -7,7 +7,7 @@
     line-height: 28px;
     margin-left: 18px;
     opacity: 1;
-    transition: opacity .2s linear;
+    transition: opacity .2s ease-in-out;
 }
 
 .header__lang-link:hover {

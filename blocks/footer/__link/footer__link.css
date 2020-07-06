@@ -7,7 +7,7 @@
     font-weight: normal;
     margin-right: 18px;
     opacity: 1;
-    transition: opacity .2s linear;
+    transition: opacity .2s ease-in-out;
 }
 
 .footer__link:hover {
