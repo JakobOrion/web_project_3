@@ -4,5 +4,24 @@
 @import url('./__title/lead__title.css');
 
 .lead {
-    
+    max-width: calc(100% - 296px);
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead {
+        max-width: calc(100% - 32px);
+    }
 }
