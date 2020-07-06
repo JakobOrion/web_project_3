@@ -3,16 +3,44 @@
 @import url('./__website/place__website.css');
 @import url('./__url-heading/place__url-heading.css');
 @import url('./__link/place__link.css');
+@import url('./__text/place__text.css');
 @import url('./__paragraph/place__paragraph.css');
 
 
 .place {
     display: grid;
-    grid-template-columns: 460px auto;
+    grid-template-columns: minmax(440px, 460px) auto;
     grid-template-rows: auto;
     grid-gap: 48px 40px;
     margin: 0px auto 80px;
     grid-template-areas:
       "title website"
       "photo description";
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-template-columns: minmax(340px, 440px) auto;
+        grid-column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: minmax(320px, 340px) auto;
+        grid-column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .place {
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+        grid-template-areas: 
+        "title"
+        "photo"
+        "website"
+        "description";
+        margin-bottom: 48px;
+    }
 }

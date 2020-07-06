@@ -1,6 +1,19 @@
 .place__website {
-    grid-area: website;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  grid-area: website;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 475px) {
+    .place__website {
+      width: calc(100% - 32px);
+      margin: 0 auto;
+    }
+  }
+
+@media screen and (max-width: 320px) {
+    .place__website {
+      display: none;
+    }
 }
