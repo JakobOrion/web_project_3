@@ -1,6 +1,6 @@
 # Project 3
 
-**by Jakob Pfefferkorn**
+**by Jakob Bohn**
 
 ### From Portland to Portland
 
